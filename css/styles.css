@@ -1,0 +1,197 @@
+/*common styles*/
+body {
+    font-family: 'Roboto', 'Open Sans';
+    color: #2E2F42;
+}
+
+/*reset styles*/
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: #2E2F42;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.title-accent {
+    color: #4D5AE5;
+}
+
+/**
+  |============================
+  | Header section
+  |============================
+*/
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.mail-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Section 1
+  |============================
+*/
+.section-1 {
+    background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+.title-btn {
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | Section 2
+  |============================
+*/
+.section2-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+.section2-text {
+    color: #434455;
+    line-height: 1.5;
+}
+
+/**
+  |============================
+  | Section 3
+  |============================
+*/
+.section3>h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section3-list>li>img {
+    width: 360px;
+    height: 300px;
+    border: 1px solid #E7E9FC;
+    background: url(2368.jpg);
+}
+
+/**
+  |============================
+  | Section 4
+  |============================
+*/
+.section-4 {
+    background: #F4F4FD;
+}
+
+.section4-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.desc-name {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/**
+  |============================
+  | footer
+  |============================
+*/
+.footer {
+    background: #2E2F42;
+    color: #F4F4FD;
+}
+
+.logo-footer {
+    color: #F4F4FD;
+}
+
+/**
+  |============================
+  | portfolio body
+  |============================
+*/
+.scrolls {
+    background: #F4F4FD;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #4D5AE5;
+}
+
+.scrolls:focus .scrolls,
+.scrolls:hover {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.portfolio_img {}
