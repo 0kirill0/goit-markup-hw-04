@@ -16,7 +16,7 @@ body {
 
 /*reset styles*/
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .link {
@@ -79,19 +79,13 @@ body {
     font-style: normal;
 }
 
-.tel {
+.mail-tel {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-color);
 }
 
-.mail {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--body-color);
-}
 
 .tel,
 .mail:focus {
@@ -108,7 +102,7 @@ body {
   | Section 1
   |============================
 */
-.section-1 {
+.section-title {
     background: #2E2F42;
 }
 
@@ -130,11 +124,11 @@ body {
 }
 
 .title-btn:hover {
-    color: var(--btn-hover-color);
+    background-color: var(--btn-hover-color);
 }
 
 .title-btn:focus {
-    color: var(--btn-hover-color);
+    background-color: var(--btn-hover-color);
 }
 
 /**
@@ -142,17 +136,26 @@ body {
   | Section 2
   |============================
 */
-.section2-subtitle {
+.items-bloks {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    etter-spacing: 0.02em;
+}
+
+.section-bloks-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--background-color);
     letter-spacing: 0.02em;
 }
 
-.section2-text {
-    color: #434455;
+.section-bloks-text {
+    color: var(--body-color);
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /**
