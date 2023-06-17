@@ -1,4 +1,12 @@
 /*common styles*/
+:root {
+    --background-color: #2E2F42;
+    --btn-hover-color: #404BBF;
+    --color-iris: #4D5AE5;
+    --color-cloud: #F4F4FD;
+    --white-color: #ffffff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
