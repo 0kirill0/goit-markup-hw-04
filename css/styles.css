@@ -86,14 +86,11 @@ body {
     color: var(--body-color);
 }
 
-
-.tel,
-.mail:focus {
+.mail-tel:focus {
     color: var(--btn-hover-color);
 }
 
-.tel,
-.mail:hover {
+.mail-tel:hover {
     color: var(--btn-hover-color);
 }
 
