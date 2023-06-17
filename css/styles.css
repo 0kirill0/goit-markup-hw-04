@@ -48,7 +48,8 @@ body {
 */
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway",
+        sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
@@ -78,7 +79,13 @@ body {
     font-style: normal;
 }
 
-.tel,
+.tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color);
+}
+
 .mail {
     font-size: 16px;
     line-height: 1.5;
@@ -117,7 +124,17 @@ body {
     background: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.title-btn:hover {
+    color: var(--btn-hover-color);
+}
+
+.title-btn:focus {
+    color: var(--btn-hover-color);
 }
 
 /**
