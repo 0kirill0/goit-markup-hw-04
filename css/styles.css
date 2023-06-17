@@ -86,10 +86,7 @@ body {
     color: var(--body-color);
 }
 
-.mail-tel:focus {
-    color: var(--btn-hover-color);
-}
-
+.mail-tel:focus,
 .mail-tel:hover {
     color: var(--btn-hover-color);
 }
@@ -235,6 +232,7 @@ body {
 
 .title-accent-footer {
     color: var(--color-cloud);
+    color: #F4F4FD;
 }
 
 .footer-text {
@@ -253,7 +251,7 @@ body {
     color: var(--color-iris);
 }
 
-.scrolls:focus .scrolls,
+.scrolls:focus,
 .scrolls:hover {
     background: #404BBF;
     color: #FFFFFF;
