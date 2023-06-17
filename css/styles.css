@@ -166,19 +166,6 @@ body {
     color: var(--background-color);
 }
 
-.section-works>h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: var(--background-color);
-}
-
-.section-works-list>li>img {
-    border: 1px solid #E7E9FC;
-    background: url(2368.jpg);
-}
-
 /**
   |============================
   | Section 4
