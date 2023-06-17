@@ -160,15 +160,24 @@ body {
   | Section 3
   |============================
 */
-.section3>h2 {
+.subtitle-works {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--background-color);
+}
+
+.section-works>h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--background-color);
 }
 
-.section3-list>li>img {
+.section-works-list>li>img {
     border: 1px solid #E7E9FC;
     background: url(2368.jpg);
 }
@@ -178,18 +187,26 @@ body {
   | Section 4
   |============================
 */
-.section-4 {
-    background: #F4F4FD;
+.section-team {
+    background: var(--color-cloud);
 }
 
-.section4-subtitle {
+.team-subtitle {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--background-color);
+}
+
+.item-team {
+    background-color: var(--white-color);
 }
 
 .team-name {
+    color: var(--background-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -209,12 +226,21 @@ body {
   |============================
 */
 .footer {
-    background: #2E2F42;
-    color: #F4F4FD;
+    background: var(--background-color);
 }
 
 .logo-footer {
-    color: #F4F4FD;
+    color: var(--color-iris);
+}
+
+.title-accent-footer {
+    color: var(--color-cloud);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cloud);
 }
 
 /**
@@ -224,7 +250,7 @@ body {
 */
 .scrolls {
     background: #F4F4FD;
-    color: #4D5AE5;
+    color: var(--color-iris);
 }
 
 .scrolls:focus .scrolls,
