@@ -91,6 +91,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     color: var(--white-color);
     letter-spacing: 0.02em;
 }
@@ -98,8 +99,10 @@ body {
 .title-btn {
     background: var(--color-iris);
     color: var(--white-color);
-    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 16px;
     letter-spacing: 0.04em;
+    font-weight: 500;
     line-height: 1.5;
     cursor: pointer;
 }
