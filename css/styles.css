@@ -21,25 +21,12 @@ body {
 
 .link {
     text-decoration: none;
-    font-style: normal;
-    color: #2E2F42;
 }
 
 .btn {
     font-family: inherit;
     cursor: pointer;
 }
-
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-
 
 /**
   |============================
@@ -97,20 +84,20 @@ body {
   |============================
 */
 .section-title {
-    background: #2E2F42;
+    background: var(--background-color);
 }
 
 .title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    color: var(--white-color);
     letter-spacing: 0.02em;
 }
 
 .title-btn {
-    background: #4D5AE5;
-    color: #FFFFFF;
+    background: var(--color-iris);
+    color: var(--white-color);
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
@@ -198,10 +185,9 @@ body {
 }
 
 .desc-name {
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-color);
 }
 
 /**
@@ -219,7 +205,7 @@ body {
 
 .title-accent-footer {
     color: var(--color-cloud);
-    color: #F4F4FD;
+    color: var(--color-cloud);
 }
 
 .footer-text {
@@ -238,14 +224,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #F4F4FD;
+    background: var(--color-cloud);
     color: var(--color-iris);
 }
 
 .scrolls:focus,
 .scrolls:hover {
-    background: #404BBF;
-    color: #FFFFFF;
+    background: var(--btn-hover-color);
+    color: var(--white-color);
 }
 
 .link-title {
