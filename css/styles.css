@@ -99,7 +99,7 @@ body {
 .title-btn {
     background: var(--color-iris);
     color: var(--white-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 0.04em;
     font-weight: 500;
