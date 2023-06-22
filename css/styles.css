@@ -17,6 +17,7 @@ body {
 /*reset styles*/
 .list {
     list-style: none;
+    margin: 0;
 }
 
 .link {
@@ -33,6 +34,14 @@ body {
   | Header section
   |============================
 */
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.site-nav {
+    margin-left: 156px;
+}
 
 .logo {
     font-family: "Raleway",
@@ -64,6 +73,7 @@ body {
 
 .headr-adress {
     font-style: normal;
+    margin-right: 156px;
 }
 
 .mail-tel {
@@ -85,6 +95,7 @@ body {
 */
 .section-title {
     background: var(--background-color);
+    margin-bottom: 60px;
 }
 
 .title {
@@ -94,6 +105,8 @@ body {
     text-align: center;
     color: var(--white-color);
     letter-spacing: 0.02em;
+    margin-top: 188px;
+    margin-bottom: 48px;
 }
 
 .title-btn {
@@ -105,6 +118,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     cursor: pointer;
+    margin-bottom: 188px;
 }
 
 .title-btn:hover {
@@ -120,11 +134,9 @@ body {
   | Section 2
   |============================
 */
-.items-bloks {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.section2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .section-bloks-subtitle {
@@ -147,6 +159,12 @@ body {
   | Section 3
   |============================
 */
+
+.section-works {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
 .subtitle-works {
     font-size: 36px;
     line-height: 1.11;
@@ -154,6 +172,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--background-color);
+    margin-bottom: 72px;
+    margin-top: 0;
 }
 
 /**
@@ -250,4 +270,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-color);
+}
+
+.container {
+    border: 3px solid red;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
