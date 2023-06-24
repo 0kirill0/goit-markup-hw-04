@@ -232,13 +232,13 @@ body {
     overflow: hidden;
 }
 
-.section-two {
+.sect-two-list {
     display: flex;
     gap: 24px;
 }
 
 .items-bloks {
-    width: calc(100% - 72px);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-bloks-subtitle {
