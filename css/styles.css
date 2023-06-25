@@ -45,7 +45,8 @@ menu,
 nav,
 section,
 audio,
-video {
+video,
+span {
     margin: 0;
     padding: 0;
 }
@@ -99,8 +100,6 @@ body {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--cornflower);
 }
 
@@ -132,6 +131,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--background-color);
     padding: 24px 0;
+    display: block;
 }
 
 .menu:focus,
@@ -148,6 +148,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-color);
+    padding: 24px 0;
+    display: block;
 }
 
 .mail-tel:focus,
@@ -348,11 +350,13 @@ body {
     color: var(--color-iris);
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 
 .title-accent-footer {
     color: var(--color-cloud);
     color: var(--color-cloud);
+    margin-left: -3px;
 }
 
 .footer-text {
@@ -401,7 +405,6 @@ body {
 .link-block {
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
-    border-top: none;
 }
 
 .link-title {
@@ -428,6 +431,5 @@ body {
 }
 
 .item-portfolio {
-    border: 1px solid var(--cornflower);
     width: calc((100% - 48px) / 3);
 }
