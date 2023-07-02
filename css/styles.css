@@ -103,6 +103,7 @@ body {
 
 .header {
     border-bottom: 1px solid var(--cornflower);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .site-nav {
@@ -135,6 +136,7 @@ body {
     padding: 24px 0;
     display: block;
 }
+
 
 .menu:focus,
 .menu:hover {
@@ -208,6 +210,7 @@ body {
     min-width: 169px;
     border: none;
     border-radius: 4px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-btn:hover {
@@ -342,7 +345,7 @@ body {
 }
 
 .team-block {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .team-name {
@@ -381,6 +384,8 @@ body {
     height: 40px;
     background-color: var(--color-iris);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .link-icons-team:hover {
@@ -404,7 +409,7 @@ body {
     font-size: 36px;
     font-family: Roboto;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -421,11 +426,16 @@ body {
     align-items: center;
     width: 168px;
     height: 88px;
+    color: var(--lightslate);
     border: 1px solid var(--lightslate);
     border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .customers-icon {
+    fill: currentColor;
     fill: var(--lightslate);
 }
 
@@ -435,6 +445,12 @@ body {
 
 .link-customers:hover {
     border-color: var(--btn-hover-color);
+    color: var(--btn-hover-color);
+}
+
+.link-customers:focus {
+    border-color: var(--btn-hover-color);
+    color: var(--btn-hover-color)
 }
 
 /**
@@ -489,11 +505,13 @@ body {
 
 .list-icons-footer {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-media-icon {
     fill: var(--color-cloud);
+    width: 24px;
+    height: 24px;
 }
 
 .link-icons-footer {
@@ -504,9 +522,15 @@ body {
     height: 40px;
     background-color: var(--color-iris);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .link-icons-footer:hover {
+    background-color: var(--green-color);
+}
+
+.link-icons-footer:focus {
     background-color: var(--green-color);
 }
 
