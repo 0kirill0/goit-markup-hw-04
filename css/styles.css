@@ -228,6 +228,18 @@ body {
     padding-bottom: 120px;
 }
 
+.sect-two-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--color-cloud);
+    margin-bottom: 8px;
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
